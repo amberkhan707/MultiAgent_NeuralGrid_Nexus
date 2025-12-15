@@ -23,7 +23,7 @@ Modular Architecture: Clear separation of concerns with stateful workflow manage
 Multi-source Retrieval: Combines local document knowledge with web search capabilities
 
 ## 🏗️ Architecture
-####Core Components
+#### Core Components
 Document Processing Pipeline
 
 PDF loading with PyPDFLoader
