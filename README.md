@@ -1,4 +1,5 @@
-![Uploading Monitor Tracking.png…]()
+<img width="1914" height="908" alt="Monitor Tracking" src="https://github.com/user-attachments/assets/27a1878c-3ec4-438c-993f-361f1b7461d0" />
+
 
 
 ## 📋 Project Overview
