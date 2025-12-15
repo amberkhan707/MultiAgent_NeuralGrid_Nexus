@@ -164,8 +164,8 @@ Hallucination detection: Binary (yes/no)
 
 Answer quality: Binary (yes/no)
 
-🔍 How It Works
-Step-by-Step Process
+## 🔍 How It Works
+### Step-by-Step Process
 Question Reception: User submits a question
 
 Routing Decision: LLM classifies question as document-specific or general
