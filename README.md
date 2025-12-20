@@ -82,24 +82,23 @@ flowchart TD
 
 ### ⚙️ Environment Setup
 1️⃣ Clone the Repository
-```bash
+```
 git clone https://github.com/your-username/adaptive-rag-langgraph.git
 cd adaptive-rag-langgraph
 ```
 2️⃣ Create Virtual Environment
-```bash
+```
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
 3️⃣ Install Dependencies
-```bash
+```
 pip install -r requirements.txt
 ```
 ### 🔑 Environment Variables
-```
-Create a .env file in the root directory:
 
-env
+Create a .env file in the root directory:
+```
 groq_api_key=YOUR_GROQ_API_KEY
 TAVILY_API_KEY=YOUR_TAVILY_API_KEY
 hf_api_key=YOUR_HUGGINGFACE_API_KEY
@@ -115,7 +114,6 @@ hf_api_key=YOUR_HUGGINGFACE_API_KEY
 
 4. Vector Store: FAISS
 ```
-python
 RecursiveCharacterTextSplitter(
     chunk_size=2200,
     chunk_overlap=240
@@ -160,13 +158,14 @@ Generates answer
 
 Validates grounding and relevance
 
-### 📊 Why This Is Production-Ready
-✔ Deterministic graph execution
-✔ Explicit failure handling
-✔ Structured LLM outputs (no parsing hacks)
-✔ Multi-agent quality control
-✔ Easily extensible nodes
-✔ Debuggable & observable flow
+## 📊 Why This Is Production-Ready
+
+- ✔ **Deterministic graph execution**
+- ✔ **Explicit failure handling**
+- ✔ **Structured LLM outputs (no parsing hacks)**
+- ✔ **Multi-agent quality control**
+- ✔ **Easily extensible nodes**
+- ✔ **Debuggable & observable flow**
 
 
 ### 🛠️ Tech Stack
